@@ -53,9 +53,9 @@ Este projeto foi desenvolvido utilizando:
 
 ### Pré-requisitos
 Certifique-se de ter instalado em sua máquina:
-* Compilador C++ (G++ ou Clang)
-* [PREENCHER: Biblioteca Gráfica necessária]
-* Make (opcional)
+* Compilador C++ (G++)
+* Biblioteca Allegro 5
+* Make
 
 ### Passo a Passo
 
