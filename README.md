@@ -1,112 +1,127 @@
-# 🛸 Flappy OVNI
+# Flappy OVNI
 
-> Uma reinterpretação intergaláctica do clássico Flappy Bird, desenvolvida como projeto acadêmico da disciplina de Programação e Desenvolvimento de Software II na UFMG.
-
+> An intergalactic remake of the classic Flappy Bird, developed as an academic project for the Software Development and Programming II course at UFMG.
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 ![Badge C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-## 📖 Sobre o Projeto
+## About the Project
 
-O **Flappy OVNI** é um jogo de plataforma no estilo *endless runner*, baseado no clássico Flappy Bird. O objetivo principal foi implementar a mecânica clássica de voo e desvio de obstáculos, enriquecendo a experiência com sistemas de persistência de dados e elementos de RPG (power-ups e níveis de dificuldade).
-
-Diferente do original, este projeto foca na progressão do jogador através de um sistema de contas e placares globais.
+**Flappy OVNI** is an *endless runner* platform game based on the classic Flappy Bird. The main goal was to implement the classic flying and obstacle-avoidance mechanics, adding data persistence and RPG elements like power-ups and difficulty levels.
 
 ---
 
-## 🎮 Funcionalidades Principais
+## Main Features
 
-### ⚙️ Core Mechanics & Sistemas
-- **Sistema de Cadastro e Login:** Cada jogador possui uma conta única.
-- **Placar de Líderes (High Score):** Um ranking persistente que exibe as melhores pontuações registradas entre todos os usuários.
-- **Física de Voo:** Controle preciso de pulo e gravidade para desviar dos obstáculos.
+### Core Mechanics & Systems
 
-### 🌟 Diferenciais de Gameplay
-Implementamos mecânicas que vão além do jogo original para tornar a partida mais dinâmica:
+* **Login and Register System:** Every player has a unique account.
+* **Leaderboard (High Score):** A persistent ranking that shows the best scores from all users.
+* **Flight Physics:** Precise jump and gravity control to dodge obstacles.
 
-| Ícone | Item | Efeito |
-|:---:|:---|:---|
-| ⭐ | **Estrela (Power-up)** | Concede **invencibilidade temporária**. O OVNI pode atravessar canos sem sofrer dano por um curto período. |
-| 💰 | **Coletável de Pontos** | Um item especial que, ao ser coletado, concede **pontuação bônus** imediata. |
+### Gameplay Extras
 
-### 🕹️ Seletor de Dificuldade
-O jogo se adapta ao nível do jogador através de três modos distintos, que influenciam diretamente a velocidade do jogo e a geração procedural dos canos:
-1. **Fácil**
-2. **Médio**
-3. **Difícil**
+We added new mechanics to make the game more dynamic:
 
-### 🎨 Design Original
-Todos os ativos visuais (sprites do personagem, canos, fundos e itens) são de **autoria própria**, criados exclusivamente para este projeto.
+| Icon | Item | Effect |
+| --- | --- | --- |
+| 🟡 | **Yellow Circle (Power-up)** | Gives **temporary invincibility**. The UFO can pass through pipes without taking damage. |
+| 🟢 | **Green Circle** | A special item that gives **bonus points** immediately when collected. |
 
----
+### Difficulty Selector
 
-## 🛠️ Tecnologias Utilizadas
+The game adapts to the player's skill with three modes, which change the game speed and pipe generation:
 
-Este projeto foi desenvolvido utilizando:
+1. **Easy**
+2. **Medium**
+3. **Hard**
 
-* **Linguagem:** C++ (Padrão C++11 ou superior)
-* **Biblioteca Gráfica:** Allegro 5
-* **Documentação:** Doxygen
+### Original Design
+
+All visual assets (character sprites, pipes, backgrounds, and items) are **original**, created specifically for this project.
 
 ---
 
-## 🚀 Como Executar o Jogo
+## Technologies Used
 
-### Pré-requisitos
-Certifique-se de ter instalado em sua máquina:
-* Compilador C++ (G++)
-* Biblioteca Allegro 5
+This project was developed using:
+
+* **Language:** C++ (C++11 standard or higher)
+* **Graphics Library:** Allegro 5
+* **Documentation:** Doxygen
+
+---
+
+##  How to Run the Game
+
+### Prerequisites
+
+Make sure you have installed:
+
+* C++ Compiler (G++)
+* Allegro 5 Library
 * Make
 
-### Passo a Passo
+### Step by Step
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/MarneyMelo/flappy-ovni.git](https://github.com/MarneyMelo/flappy-ovni.git)
+1. **Clone the repository:**
+```bash
+git clone https://github.com/MarneyMelo/flappy-ovni.git
+
+```
 
 
-2.  **Acesse a pasta do projeto:**
+2. **Enter the project folder:**
+```bash
+cd FLAPPY-OVNI
 
-    ```bash
-    cd FLAPPY-OVNI
-    ```
+```
 
-3.  **Compile o código:**
 
-    ```bash
-    # Exemplo:
-    make all
-    ```
+3. **Compile the code:**
+```bash
+make all
 
-4.  **Execute o jogo:**
+```
 
-    ```bash
-    ./bin/main.exe
-    ```
+4. **Run the game:**
+```bash
+./bin/main.exe
 
------
+```
 
-## 📚 Documentação
+## Documentation
 
-A documentação completa do código foi gerada utilizando a ferramenta **Doxygen**.
-Para acessá-la, você pode gerar os arquivos localmente seguindo estes passos:
+The full code documentation was created using **Doxygen**.
+To view it, follow these steps:
 
-1. Certifique-se de ter o **Doxygen** instalado na sua máquina.
-2. Na raiz do projeto, execute o comando:
-   ```bash
-   doxygen Doxyfile
-Uma pasta chamada html será criada. Abra o arquivo html/index.html no seu navegador para visualizar a estrutura de classes, métodos e hierarquias do projeto.
+1. Make sure you have **Doxygen** installed.
+2. In the project root, run:
+```bash
+doxygen Doxyfile
 
------
+```
 
-## 👥 Autores
+A folder named `html` will be created. Open the file `html/index.html` in your browser to see the classes and methods.
 
-Este projeto foi desenvolvido por:
+---
 
-  * **Marney Melo** - [MarneyMelo](https://github.com/MarneyMelo)
-  * **Rafael Miranda** - [RRafaelMMiranda](https://github.com/RRafaelMMiranda)
-  * **Theo Duarte** - [theolara272727](https://github.com/theolara272727)
-  * **Victor Kaizer** - [KaizerBlank](https://github.com/KaizerBlank)
-  * **Vinicius Rochar** - [vrrocha-scs](https://github.com/vrrocha-scs)
+## Authors
+
+This project was developed by:
+
+* **Marney Melo** - [MarneyMelo](https://github.com/MarneyMelo)
+* **Rafael Miranda** - [RRafaelMMiranda](https://github.com/RRafaelMMiranda)
+* **Theo Duarte** - [theolara272727](https://github.com/theolara272727)
+* **Victor Kaizer** - [KaizerBlank](https://github.com/KaizerBlank)
+* **Vinicius Rocha** - [vrrocha-scs](https://github.com/vrrocha-scs)
+
+---
+
+## License
+
+This project is under the [MIT](https://opensource.org/licenses/MIT) license.
+
+---
 
 -----
 
