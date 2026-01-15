@@ -124,9 +124,3 @@ This project is under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ---
 
------
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](https://www.google.com/search?q=./LICENSE).
-
