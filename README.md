@@ -1,6 +1,7 @@
 # Flappy OVNI
 
 > An intergalactic remake of the classic Flappy Bird, developed as an academic project for the Software Development and Programming II course at UFMG.
+
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 ![Badge C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
